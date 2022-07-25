@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(11111.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+label{
+    cursor: pointer;
+}
+span{
+    color:#45a055;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-left: 40px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    overflow: hidden;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: #45a055;
+    transition: .4s;
+}
+nav img{
+
+    width: 100px;
+    float:left;
+
+
+}
+.content{
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    overflow: hidden;
+}
+.content h1{
+    color: #45a055;
+    font-size: 230px;
+    overflow: hidden;
+}
+.content h3{
+    overflow: hidden;
+    padding-left: 30px;
+}
+.details{
+    height: 100vh;
+    width: 100%;
+    background-image: url(4524.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.about {
+    padding-top: 15%;
+    float: left;
+    width: 70%;
+    font-size: 40px;
+    color: white;
+    padding-left: 120px;
+    overflow: hidden;
+}
+.detail1{
+    font-size: 20px;
+    color: white;
+    padding-left: 120px;
+    padding-top: 20%;
+    padding-right: 8%;
+    overflow: hidden;
+}
+button{
+    background-color: #45a055;
+    color: black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 30px;
+}
+button:hover{
+    transform: scale(1.5);
+}
+.badges{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Untitled-1.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+
+}
+.badges h4{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 8%;
+}
+.rightline ul{
+    overflow: hidden;
+}
+
+.rightline img{
+    width: 400px;
+    float:right;
+    overflow: hidden;
+ }
+.rightline img:hover{
+    transform: scale(1.5);
+}
+.leftline ul{
+    overflow: hidden;
+}
+
+.leftline img{
+    width: 400px;
+    float:left;
+    overflow: hidden;
+    
+}
+.leftline img:hover{
+    transform: scale(1.5);
+}
+ 
+
+.prizes{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background4.jpg);
+    background-size: cover;
+}
+.prizes h4{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    padding-top: 8%;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    
+}
+.card:hover{
+    transform: scale(1.5);
+}
+
+
+h1{
+	color: #45a055;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+h3{
+    color: white;
+	font-size: 18px;
+	margin-bottom: 15px;  
+}
+
+
+
+.timeline{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background5.jpg);
+    background-size: cover;
+}
+.timeline h4{
+    text-align: center;
+    font-size: 30px;
+    color: #45a055;
+    padding-top: 4%;
+    padding-top: 8%;
+}
+.list li{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+.footer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(background6.jpg);
+    background-size: cover;
+} 
+.footer .close h1{
+    color:#45a055;
+    font-size: 200px;
+    text-transform: capitalize;
+    padding-left: 100px;
+    padding-top: 180px;
+    overflow: hidden;
+}
+footer{
+    width: 100%;
+    
+    z-index: 101;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+
+
+footer .social a{
+    margin-left: 20px;
+}
+
+footer .social i{
+    color: #000;
+    font-size: 1.6rem;
+    transition: all 0.3s ease-in;
+}
+
+footer .social i:hover{
+    transform: scale(1.1);
+}
+
+footer .credit{
+    text-align: right;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+
+
